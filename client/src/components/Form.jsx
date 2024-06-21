@@ -1,3 +1,8 @@
 export default function Form() {
-  return <h2>Mon formulaire</h2>;
+  return (
+    <section>
+        <input type="text" />
+            <button type="button">Envoyer</button>
+    </section>
+  )
 }
